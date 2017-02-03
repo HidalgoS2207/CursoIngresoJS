@@ -4,6 +4,8 @@
 */
 function Mostar()
 {
+	var dataToShow = prompt("Ingrese dato a mostrar: ");
 	
+	document.GetElementById('elNombre').value = dataToShow;
 }
 
