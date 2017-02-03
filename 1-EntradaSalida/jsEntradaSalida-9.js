@@ -6,7 +6,7 @@ function MostrarAumento()
 {
 	var monto = document.getElementById('sueldo').value;
 
-	var aumento = parseInt(monto) + (parseInt(monto)*0.1);
+	var aumento = parseInt(monto) * 1.1
 
 	document.getElementById('resultado').value = aumento;
 }

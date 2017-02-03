@@ -7,7 +7,7 @@ function SacarResto()
 	var dividendo = document.getElementById('numeroDividendo').value;
 	var divisor = document.getElementById('numeroDivisor').value;
 	
-	var modulo = dividendo % divisor;
+	var modulo = parseInt(dividendo) % parseInt(divisor);
 	
 	var cadena = "El resto es " + modulo;
 	
