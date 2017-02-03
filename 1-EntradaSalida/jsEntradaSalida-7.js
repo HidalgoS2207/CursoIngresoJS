@@ -17,7 +17,7 @@ function restar()
 	  var dato_001 = document.getElementById('numeroUno').value;
   var dato_002 = document.getElementById('numeroDos').value;
   
-  var resta = dato_001 + dato_002;
+  var resta = dato_001 - dato_002;
   
   alert(resta);
 }
