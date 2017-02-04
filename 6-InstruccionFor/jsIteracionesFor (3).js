@@ -1,8 +1,13 @@
 function Mostrar()
-{
+{   
+    var repeticiones;
 
-var repetciones = prompt("ingrese el número de repeticiones");
+    repeticiones = prompt("Defina el número de veces que quiere repetir la frase: ");
 
+    repeticiones = parseInt(repeticiones);
 
-
-}//FIN DE LA FUNCIÓN
+    for(var i = 0 ; i < repeticiones ;i++ )
+    {
+        document.write( (i + 1)  + " - UTN FRA <br>");
+    }
+}
