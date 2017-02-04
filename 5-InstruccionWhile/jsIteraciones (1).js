@@ -1,6 +1,13 @@
 function Mostrar()
 {
-	alert('iteración while');
+	var numero = 0;
 
+	while(numero < 10)
+	{
+		numero++;
 
-}//FIN DE LA FUNCIÓN
+		var concatenated = "Su número es: " + numero;
+
+		alert(concatenated);
+	}
+}

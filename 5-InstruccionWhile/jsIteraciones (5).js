@@ -1,10 +1,18 @@
 function Mostrar()
 {
+    var sexo = prompt("Ingrese su género (m ó f): " , "");
 
-var sexo = prompt("ingrese f ó m .");
+    while(sexo != "m" && sexo != "f")
+    {
+        sexo = prompt("Error. Sólo existen dos géneros. Ingrese m ó f");
+    }
 
-
-
-document.getElementById('Sexo').value=sexo;
-
-}//FIN DE LA FUNCIÓN
+    if(sexo == "m")
+    {
+        document.getElementById('Sexo').value = "Masculino";
+    }
+    else
+    {
+        document.getElementById('Sexo').value = "Femenino";
+    }
+}

@@ -1,7 +1,11 @@
 function Mostrar()
 {
+	var numero = prompt("Ingrese número del 1 al 10." , "");
 
-	var numero = prompt("ingrese un número entre 0 y 10.");
+	while(numero > 9 || numero < 0)
+	{
+		numero = prompt("Fuera de rango. Ingrese número del 1 al 10." , "");
+	}
 
-
-}//FIN DE LA FUNCIÓN
+	document.getElementById('Numero').value = numero;
+}
