@@ -51,7 +51,7 @@ function ComenzarIngreso()
     while(SB < 8000 || isNaN(SB))
     {
         SB = prompt("Ingrese sueldo bruto de la persona: " , "Mayor a $8000");
-        SB = parseInt(SB);
+        SB = parseFloat(SB);
 
         if(SB < 8000 || isNaN(SB))
         {
